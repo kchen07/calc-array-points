@@ -82,7 +82,7 @@ func add (point1: (Int, Int), point2: (Int, Int)) -> (Int,Int) {
 
 func subtract (point1: (Int, Int), point2: (Int, Int)) -> (Int, Int) {
     if (checkTuple(tup: point1) && checkTuple(tup: point2)) {
-        return (subtract(first: point1.0, second: point2.0), subtract(first: point1.1, second: point2.0))
+        return (subtract(first: point1.0, second: point2.0), subtract(first: point1.1, second: point2.1))
     }
     return (0,0)
 }
